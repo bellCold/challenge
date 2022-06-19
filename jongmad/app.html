@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="../jongmad/js/app.js"></script>
+    <script defer src="../jongmad/js/clock.js"></script>
+    <script defer src="../jongmad/js/quote.js"></script>
+    <script defer src="../jongmad/js/background.js"></script>
+    <script defer src="../jongmad/js/todo.js"></script>
+    <script defer src="../jongmad/js/weather.js"></script>
+    <link rel="stylesheet" href="../jongmad/css/reset.css">
+    <link rel="stylesheet" href="../jongmad/css/app.css">
+    <title>Momentum App</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="weather_css">
+            <div id="weather">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="middle">
+            <div class="clock_css">
+                <h2 id="clock"></h2>
+            </div>
+            <div class="todo_css">
+                <form id="login-form" class="hidden">
+                    <h1>Hello,what's your name?</h1>
+                    <input id="name" required maxlength="15" type="text" autofocus />
+                </form>
+                <form id="todo-form">
+                    <h1>What is your main focus for today?</h1>
+                    <input id="toDoList" type="text" required />
+                </form>
+                <ul id="todo-list"></ul>
+                <h1 id="greeting" class="hidden"></h1>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div id="quote">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
